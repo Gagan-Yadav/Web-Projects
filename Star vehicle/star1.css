@@ -1,0 +1,327 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+     nav{
+        margin: -20px;
+        background: rgb(0, 0, 0);
+        height: 80px;
+        width: 101%;
+        position: fixed;
+        z-index: 45;
+    }
+     nav ul{
+        float: right;
+        margin-right: 20px;
+        
+    }
+     nav ul li{
+         display:inline-block;
+       line-height: 59px;
+       margin-right: -6px 5px;
+    }
+     nav ul li a{
+        color: rgb(46, 255, 46);
+        font-size: 17px;
+        padding: 7px 14px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    a.active, a:hover {
+        background: rgb(171, 171, 184);
+        transition: .5s;
+        color: black;
+    }
+    #L1{
+        width: 100px;
+        position: absolute;
+        margin-top: 9px;
+    }
+    #L2{
+        width: 180px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 96px;
+    margin-top: 10px;
+    }
+    .marq{
+        background-color: greenyellow;
+    position: absolute;
+    margin-top: 73px;
+    font-size: 27px;
+    margin-left: -6px;
+    z-index: -1;
+    }
+    .bluecar{
+        width: 500px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 317px;
+    z-index: -1;
+        
+    }
+    .cont2 h2{
+        margin-top: 8em;
+    position: absolute;
+    margin-left: 39em;
+    font-family: auto;
+    font-weight: bold;
+    }
+    .cont2 p{
+        margin-top: 15em;
+    position: absolute;
+    width: 23em;
+    margin-left: 58em;
+    }
+    .cont3{
+        position: absolute;
+        border: 2px solid wheat;
+    background-color: rgb(51, 238, 238);
+    width: 100%;
+    margin-top: 28em;
+    margin-left: -5px;
+    
+    }
+    .nav2{
+        height: 200px;
+    position: relative;
+    }
+    .nav2 h2{
+        margin-left: 10em;
+        color: rgba(240, 34, 34, 0.938);
+    display: inline-block;
+    font-size: 35px;
+    font-family: auto;
+    }
+    .nav2 h3{
+        margin-left: -6em;
+    border-bottom: 7px double black;
+    font-size: 31px;
+    position: absolute;
+    font-family: auto;
+    margin-top: 2em;
+    display: inline-block;
+    font-weight: 500;
+    }
+    .vl{
+        border-left: 4px dotted red;
+    height: 129px;
+    position: absolute;
+    left: 44%;
+    margin-left: -3px;
+    margin-top: -67px;
+    }
+    .part2 h3{
+        left: 47%;
+    position: absolute;
+    margin-top: -178px;
+    }
+    .part2 p{
+        width: 300px;
+    margin-left: 45em;
+    margin-top: -142px;
+    position: absolute;
+    }
+    .cont4 h4{
+        color: rgb(116 110 116 / 80%);
+    margin-left: 106px;
+    margin-top: 37em;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    }
+    .cont4 h2{
+        margin-left: 104px;
+    font-weight: 700;
+    font-family: auto;
+    margin-top: 29em;
+    position: absolute;
+    }
+    .box1 {
+        background-color: thistle;
+    margin-top: 50em;
+    margin-left: 40px;
+    height: 11em;
+    width: 700px;
+    position: absolute;
+    z-index:-1;
+    }
+    .moneyimg {
+        height: 150px;
+    margin-left: 13px;
+    margin-top: 13px;
+    position: absolute;
+    }
+    .boxhead{
+        margin-left: 12em;
+    margin-top: 26px;
+    }
+    .boxpara{
+        width: 380px;
+    margin-left: 14em;
+    }
+    .box2 {
+        background-color: thistle;
+    margin-top: 50em;
+    margin-left: 800px;
+    height: 11em;
+    width: 700px;
+    position: absolute;
+    z-index:-1;
+    }
+    .box3{
+        background-color: thistle;
+    margin-top: 64em;
+    margin-left: 800px;
+    height: 11em;
+    width: 700px;
+    position: absolute;
+    z-index:-1;
+    }
+    .box4 {
+        background-color: thistle;
+    margin-top: 64em;
+    margin-left: 40px;
+    height: 11em;
+    width: 700px;
+    position: absolute;
+    z-index:-1;
+    }
+    .box5{
+        background-color: thistle;
+    margin-top: 78em;
+    margin-left: 800px;
+    height: 11em;
+    width: 700px;
+    position: absolute;
+    z-index:-1;
+    }
+    .box6 {
+        background-color: thistle;
+    margin-top: 78em;
+    margin-left: 40px;
+    height: 11em;
+    width: 700px;
+    position: absolute;
+    z-index:-1;
+    }
+    .hero{
+        background: linear-gradient(
+45deg, rgb(0, 0, 0), transparent);
+    height: 95vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 94em;
+    }
+    .hero h1{
+        text-align: center;
+    padding-top: 0px;
+    font-size: 46px;
+    color: currentcolor;
+    font-family: auto;
+    border-bottom: 7px double black;
+    position: absolute;
+    margin-left: 600px;
+    }
+    .slide-row{
+        display: flex;
+        width: 3200px;
+        transition: 0.5s;
+    }
+    .slide-col{
+        width: 800px;
+        height: 400px;
+        position: relative;
+    }
+    
+    .user-img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+    .user-img img{
+        height: 100%;
+        border-radius: 10px;
+    }
+    .user-text{
+        background: #2d3a59;
+    width: 599px;
+    height: 256px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+    }
+    #tushantcol{
+        height: 264px;
+    padding-top: 21px;
+    width: 610px;
+    }
+    #dhruv{
+        width: 547px;
+    padding-top: 74px;
+    }
+    #rohan{
+        width: 559px;
+    }
+    .user-text p{
+        font-size: 18px;
+        line-height: 24px;
+        width: 468px;
+        margin-top: -3px;
+    }
+    .user-text h3{
+        margin: 35px 0 5px;
+        color: #fff;
+    }
+    .containerslide{
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .indicator{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -50px;
+    }
+    .btn{
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin: 4px;
+        border-radius: 15px;
+        background: #fff;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .active{
+        width: 45px;
+    }
+    .testimonial{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .allbox:hover{
+        transform: scale(1.3,1.3);
+        transition: 2s;
+        background-color: rgb(255, 185, 255);
+    }
+    .copyright{
+        color: red;
+    margin-top: 137em;
+    position: absolute;
+    margin-left: 40%;
+    }
